@@ -1,22 +1,15 @@
+
+<!-- Create a map in an HTML element with wrld.js -->
 <!DOCTYPE HTML>
 <html>
-
-<head>
+  <head>
     <script src="https://cdn-webgl.wrld3d.com/wrldjs/dist/latest/wrld.js"></script>
-    <link rel="stylesheet" href="../css/style.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.1/leaflet.css" rel="stylesheet" />
-</head>
-
-<body>
-    <div id="wrapper">
-        <div id="map"</div>
-        <script>
-        var map = L.Wrld.map("map", "aa83890998f88b044e687c4cff35b97b", {
-            center: [37.7858, -122.401],
-            zoom: 16
-        });
-        </script>
-    </div>
-</body>
-
+  </head>
+  <body>
+    <div id="map" style="width: 400px; height: 400px;"></div>
+    <script type="text/javascript">
+      var map = L.Wrld.map("map", "aa83890998f88b044e687c4cff35b97b");
+    </script>
+  </body>
 </html>
