@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WRLD GUTS v2", "WRLD GUTS v2.csproj", "{CFFCC2E3-3398-0701-12B7-62ED4D6D14E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WRLD GUTS v2.Editor", "WRLD GUTS v2.Editor.csproj", "{D9F35029-C37B-4387-B6D4-87B1DF30F398}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFFCC2E3-3398-0701-12B7-62ED4D6D14E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFFCC2E3-3398-0701-12B7-62ED4D6D14E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFFCC2E3-3398-0701-12B7-62ED4D6D14E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFFCC2E3-3398-0701-12B7-62ED4D6D14E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9F35029-C37B-4387-B6D4-87B1DF30F398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F35029-C37B-4387-B6D4-87B1DF30F398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F35029-C37B-4387-B6D4-87B1DF30F398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F35029-C37B-4387-B6D4-87B1DF30F398}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
